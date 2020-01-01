@@ -57,4 +57,7 @@ export function useSolution() {
   };
 }
 
-export function useFrequency() {}
+export function useFrequency() {
+  const [state] = useStore();
+  const bySymbol = {};
+}

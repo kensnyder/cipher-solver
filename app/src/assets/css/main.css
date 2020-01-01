@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Mukta Vaani', Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Literata, 'Times New Roman', Times, serif;
+}
