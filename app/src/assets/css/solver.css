@@ -1,0 +1,30 @@
+:root {
+  --color-highlight: #f4ff49;
+  --color-selection: #1e65ce;
+  --color-unsolved: #aaa;
+  --grid-size: 1.1em;
+}
+.grid-table {
+  border-collapse: collapse;
+}
+.grid-cell {
+  color: var(--color-unsolved);
+  width: var(--grid-size);
+  height: var(--grid-size);
+  line-height: var(--grid-size);
+  text-align: center;
+  border: 1px solid #bbb;
+  cursor: pointer;
+}
+.grid-cell.highlighted {
+  background-color: var(--color-highlight);
+}
+.grid-cell.selected {
+  color: white;
+  background-color: var(--color-selection);
+}
+.grid-cell.solved {
+  color: red;
+  font-family: 'Patrick Hand';
+  font-weight: bold;
+}

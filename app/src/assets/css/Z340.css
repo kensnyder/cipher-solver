@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'ZodiacFont';
+	src:
+    local('ZodiacFont'),
+    url(../fonts/z340-z408-combined-font-monospaced-webfont.woff2) format('woff2'),
+    url(../fonts/z340-z408-combined-font-monospaced-webfont.ttf) format('truetype');
+}
+.symbol {
+  font-family: 'ZodiacFont';
+  font-size: 22px;
+}
+.hand {
+  font-size: 22px;
+}
